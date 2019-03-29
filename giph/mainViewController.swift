@@ -28,19 +28,6 @@ class mainViewController: UIViewController {
         txtField.translatesAutoresizingMaskIntoConstraints = false
         return txtField
     }()
-    let btnLogin: UIButton = {
-        let btn = UIButton(type:.system)
-        btn.backgroundColor = .blue
-        btn.setTitle("Login", for: .normal)
-        btn.tintColor = .white
-        btn.layer.cornerRadius = 5
-        btn.clipsToBounds = true
-        btn.translatesAutoresizingMaskIntoConstraints = false
-        btn.addTarget(self, action: #selector(mainViewController.buttonAction(_:)), for: .touchUpInside)
-        
-        
-        return btn
-    }()
     
     let btn1: UIButton = {
         let btn = UIButton(type:.system)
@@ -78,12 +65,12 @@ class mainViewController: UIViewController {
         pwordTxtField.topAnchor.constraint(equalTo:unameTxtField.bottomAnchor, constant:20).isActive = true
         pwordTxtField.heightAnchor.constraint(equalToConstant:50).isActive = true
         
-        btnLogin.topAnchor.constraint(equalTo:pwordTxtField.bottomAnchor, constant:20).isActive = true
-        btnLogin.leftAnchor.constraint(equalTo:loginContentView.leftAnchor, constant:20).isActive = true
-        btnLogin.rightAnchor.constraint(equalTo:loginContentView.rightAnchor, constant:-20).isActive = true
-        btnLogin.heightAnchor.constraint(equalToConstant:50).isActive = true
+       
         
-        
+        btn1.topAnchor.constraint(equalTo:pwordTxtField.bottomAnchor, constant:20).isActive = true
+        btn1.leftAnchor.constraint(equalTo:loginContentView.leftAnchor, constant:20).isActive = true
+        btn1.rightAnchor.constraint(equalTo:loginContentView.rightAnchor, constant:-20).isActive = true
+        btn1.heightAnchor.constraint(equalToConstant:50).isActive = true
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -91,11 +78,10 @@ class mainViewController: UIViewController {
         view.backgroundColor = .gray
         loginContentView.addSubview(unameTxtField)
         loginContentView.addSubview(pwordTxtField)
-        loginContentView.addSubview(btnLogin)
         
         view.addSubview(loginContentView)
-        view.addSubview(loginContentView)
-        
+     
+        view.addSubview(btn1)
         setUpAutoLayout()
     }
     
