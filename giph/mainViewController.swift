@@ -41,6 +41,7 @@ class mainViewController: UIViewController {
         
         return btn
     }()
+    
     let btn1: UIButton = {
         let btn = UIButton(type:.system)
         btn.backgroundColor = .lightGray
@@ -49,18 +50,15 @@ class mainViewController: UIViewController {
         btn.layer.cornerRadius = 5
         btn.clipsToBounds = true
         btn.translatesAutoresizingMaskIntoConstraints = false
-        btn.addTarget(self, action: #selector(mainViewController.buttonAction(_:)), for: .touchUpInside)
-        
-    
+        btn.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         
         return btn
-        
     }()
-    @objc func buttonAction(_ sender:UIButton!)
+    @objc func buttonAction(_ sender:UIButton)
     {
         print("Button tapped")
         let vc = ViewController() //your view controller
-        self.present(vc, animated: true, completion: nil)
+        self.show(vc, sender: true)
     }
     
     func setUpAutoLayout() {
