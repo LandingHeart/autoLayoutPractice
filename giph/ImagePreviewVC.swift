@@ -39,7 +39,7 @@ class ImagePreviewVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell=collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ImagePreviewFullViewCell
-        cell.imgView.image=imgArray[indexPath.row]
+        cell.imgView.image = imgArray[indexPath.row]
         return cell
     }
     
