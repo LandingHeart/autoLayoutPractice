@@ -13,6 +13,7 @@
 		4EB1FAF3224E6E360017269F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB1FAF1224E6E360017269F /* LaunchScreen.storyboard */; };
 		4EB1FAFB224E7DB70017269F /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1FAFA224E7DB70017269F /* ImagePreviewVC.swift */; };
 		4EB1FAFD224E8B8D0017269F /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1FAFC224E8B8D0017269F /* mainViewController.swift */; };
+		4EB1FB11224E8F4B0017269F /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1FB10224E8F4B0017269F /* myViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4EB1FAF4224E6E360017269F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB1FAFA224E7DB70017269F /* ImagePreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
 		4EB1FAFC224E8B8D0017269F /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		4EB1FB10224E8F4B0017269F /* myViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4EB1FAFC224E8B8D0017269F /* mainViewController.swift */,
 				4EB1FAEF224E6E360017269F /* Assets.xcassets */,
 				4EB1FAF1224E6E360017269F /* LaunchScreen.storyboard */,
+				4EB1FB10224E8F4B0017269F /* myViewController.swift */,
 			);
 			path = giph;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB1FAFB224E7DB70017269F /* ImagePreviewVC.swift in Sources */,
+				4EB1FB11224E8F4B0017269F /* myViewController.swift in Sources */,
 				4EB1FAEB224E6E340017269F /* ViewController.swift in Sources */,
 				4EB1FAE9224E6E340017269F /* AppDelegate.swift in Sources */,
 				4EB1FAFD224E8B8D0017269F /* mainViewController.swift in Sources */,
