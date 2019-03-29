@@ -66,7 +66,7 @@ class mainViewController: UIViewController {
     func setUpAutoLayout() {
         loginContentView.leftAnchor.constraint(equalTo:view.leftAnchor).isActive = true
         loginContentView.rightAnchor.constraint(equalTo:view.rightAnchor).isActive = true
-        loginContentView.heightAnchor.constraint(equalToConstant: view.frame.height/3 - 40).isActive = true
+        loginContentView.heightAnchor.constraint(equalToConstant: view.frame.height/3 - 20).isActive = true
         loginContentView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         
         unameTxtField.topAnchor.constraint(equalTo:loginContentView.topAnchor, constant:40).isActive = true
