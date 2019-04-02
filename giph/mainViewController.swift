@@ -9,7 +9,7 @@ import UIKit
 
 class mainViewController: UIViewController {
     
-    private let loginContentView:UIView = {
+    private let ContentView:UIView = {
         let view = UIView()
         view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -49,24 +49,7 @@ class mainViewController: UIViewController {
     }
     
     func setUpAutoLayout() {
-//        loginContentView.leftAnchor.constraint(equalTo:view.leftAnchor).isActive = true
-//        loginContentView.rightAnchor.constraint(equalTo:view.rightAnchor).isActive = true
-//        loginContentView.heightAnchor.constraint(equalToConstant: view.frame.height/3 - 20).isActive = true
-//        loginContentView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-//
-//        unameTxtField.topAnchor.constraint(equalTo:loginContentView.topAnchor, constant:40).isActive = true
-//
-//        unameTxtField.leftAnchor.constraint(equalTo:loginContentView.leftAnchor, constant:20).isActive = true
-//        unameTxtField.rightAnchor.constraint(equalTo:loginContentView.rightAnchor, constant:-20).isActive = true
-//        unameTxtField.heightAnchor.constraint(equalToConstant:50).isActive = true
-//
-//        pwordTxtField.leftAnchor.constraint(equalTo:loginContentView.leftAnchor, constant:20).isActive = true
-//        pwordTxtField.rightAnchor.constraint(equalTo:loginContentView.rightAnchor, constant:-20).isActive = true
-//        pwordTxtField.topAnchor.constraint(equalTo:unameTxtField.bottomAnchor, constant:20).isActive = true
-//        pwordTxtField.heightAnchor.constraint(equalToConstant:50).isActive = true
-//
-//
-//
+   
         let margins = view.layoutMarginsGuide
         btn1.translatesAutoresizingMaskIntoConstraints = false;
         
@@ -80,7 +63,7 @@ class mainViewController: UIViewController {
         view.backgroundColor = .white
         
         
-     
+        view.addSubview(ContentView)
         view.addSubview(btn1)
         setUpAutoLayout()
     }
