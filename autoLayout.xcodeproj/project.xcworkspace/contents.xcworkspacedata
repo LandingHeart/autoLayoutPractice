@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:giph.xcodeproj">
+      location = "self:/Users/shinan/Documents/XCode-Projects/giph/autoLayout.xcodeproj">
    </FileRef>
 </Workspace>

@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		4E34969D2253B029008B4585 /* gifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifViewController.swift; sourceTree = "<group>"; };
-		4EB1FAE5224E6E340017269F /* giph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB1FAE5224E6E340017269F /* autoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB1FAE8224E6E340017269F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB1FAEA224E6E340017269F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EB1FAEF224E6E360017269F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		4EB1FADC224E6E340017269F = {
 			isa = PBXGroup;
 			children = (
-				4EB1FAE7224E6E340017269F /* giph */,
+				4EB1FAE7224E6E340017269F /* autoLayout */,
 				4EB1FAE6224E6E340017269F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		4EB1FAE6224E6E340017269F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EB1FAE5224E6E340017269F /* giph.app */,
+				4EB1FAE5224E6E340017269F /* autoLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EB1FAE7224E6E340017269F /* giph */ = {
+		4EB1FAE7224E6E340017269F /* autoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				4EB1FAE8224E6E340017269F /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				4EB1FB10224E8F4B0017269F /* myViewController.swift */,
 				4E34969D2253B029008B4585 /* gifViewController.swift */,
 			);
-			path = giph;
+			path = autoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EB1FAE4224E6E340017269F /* giph */ = {
+		4EB1FAE4224E6E340017269F /* autoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EB1FAF7224E6E360017269F /* Build configuration list for PBXNativeTarget "giph" */;
+			buildConfigurationList = 4EB1FAF7224E6E360017269F /* Build configuration list for PBXNativeTarget "autoLayout" */;
 			buildPhases = (
 				4EB1FAE1224E6E340017269F /* Sources */,
 				4EB1FAE2224E6E340017269F /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = giph;
+			name = autoLayout;
 			productName = giph;
-			productReference = 4EB1FAE5224E6E340017269F /* giph.app */;
+			productReference = 4EB1FAE5224E6E340017269F /* autoLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EB1FAE0224E6E340017269F /* Build configuration list for PBXProject "giph" */;
+			buildConfigurationList = 4EB1FAE0224E6E340017269F /* Build configuration list for PBXProject "autoLayout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EB1FAE4224E6E340017269F /* giph */,
+				4EB1FAE4224E6E340017269F /* autoLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -288,13 +288,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D847SMXCCF;
-				INFOPLIST_FILE = giph/Info.plist;
+				INFOPLIST_FILE = autoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shinan.Com.student.giph;
+				PRODUCT_BUNDLE_IDENTIFIER = shinan.Com.student.autoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +307,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D847SMXCCF;
-				INFOPLIST_FILE = giph/Info.plist;
+				INFOPLIST_FILE = autoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shinan.Com.student.giph;
+				PRODUCT_BUNDLE_IDENTIFIER = shinan.Com.student.autoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EB1FAE0224E6E340017269F /* Build configuration list for PBXProject "giph" */ = {
+		4EB1FAE0224E6E340017269F /* Build configuration list for PBXProject "autoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EB1FAF5224E6E360017269F /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EB1FAF7224E6E360017269F /* Build configuration list for PBXNativeTarget "giph" */ = {
+		4EB1FAF7224E6E360017269F /* Build configuration list for PBXNativeTarget "autoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EB1FAF8224E6E360017269F /* Debug */,
